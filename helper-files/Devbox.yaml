@@ -47,9 +47,9 @@ nodes:
                   match:
                     name: ens2
                   addresses:
-                    - 198.18.1.11/24
+                    - 10.82.145.245/25
                   set-name: ens2
-                  gateway4: 198.18.1.1
+                  gateway4: 10.82.145.129
                   nameservers:
                     addresses: [1.1.1.1]
                 ens3:
