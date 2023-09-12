@@ -8,7 +8,7 @@ LAB="$BASEDIR"
 LABDIR="$HOME/cml-iac"
 
 init_common() {
-	for f in `ls $BASEDIR/common/init-*.sh | sort`; do
+	for f in `ls common/init-*.sh | sort`; do
 		. $f
 	done
 }
